@@ -21,7 +21,7 @@ app.post("/add/book", (req, res) => {
     const data = req.body;
 
     const friend = new FriendModel({
-        BookName: data.friendName,
+        BookName: data.BookName,
         Price: data.Price,
         Author: data.Author,
         Language: data.Language,
